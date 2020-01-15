@@ -1,0 +1,27 @@
+<head>
+    <script src="../javascript/heap-tree.js" type="text/javascript"></script> 
+</head>
+<body>
+    <div id = "showTreeArray" style="text-align: center"><b>Array of Heap tree</b>   </div>
+    <div id = "showTreeAfterRemovingNodeArray" style="text-align: center"> </div>
+    <div id = "drawTree" style="text-align: center"><b>Heap tree in tree structure</b></br>  
+        </div>
+        <script>
+                var maxHeapTree = new MaxHeapTree();
+                maxHeapTree.insert(7);
+                maxHeapTree.insert(19);
+                maxHeapTree.insert(5);
+                maxHeapTree.insert(6);
+                maxHeapTree.insert(28);
+                maxHeapTree.insert(9);
+                maxHeapTree.insert(11);
+                maxHeapTree.insert(2);
+                maxHeapTree.insert(30);
+                maxHeapTree.insert(45);
+                maxHeapTree.insert(8);
+                maxHeapTree.insert(13);
+                maxHeapTree.showMaxTreeHeapArray();
+                maxHeapTree.remove();
+                maxHeapTree.showTree();
+        </script>
+</body>
